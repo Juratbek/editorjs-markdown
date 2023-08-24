@@ -1,5 +1,11 @@
 {
-  "name": "editorjs-markdown",
+  "name": "@juratbek/editorjs-markdown",
+  "description": "markdown plugin for editorjs",
+  "main": "./dist/bundle.js",
+  "keywords": [
+    "editorjs",
+    "markdown"
+  ],
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,6 +15,8 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@types/node": "^20.5.4",
+    "path": "^0.12.7",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
   }
