@@ -7,10 +7,12 @@ export default defineConfig({
     manifest: true,
     minify: true,
     reportCompressedSize: true,
+    outDir: 'dist',
     lib: {
       entry: path.resolve(__dirname, "src/main.ts"),
       fileName: "build",
-      formats: ["es", "cjs"],
+      formats: ["iife", "es",],
+      name: "Markdown",
     },
   },
 });
